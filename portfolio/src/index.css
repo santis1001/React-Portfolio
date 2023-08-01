@@ -13,6 +13,14 @@
   box-sizing: border-box;
 }
 
+#root {
+  height: 100vh;
+}
+
+#content {
+  height: 100%;
+}
+
 html {
   height: 100%;
 }
@@ -146,7 +154,6 @@ nav>ul {
 nav ul li {
   display: flex;
   height: 100%;
-  ;
   background-color: var(--theme);
 
 }
@@ -192,10 +199,24 @@ nav a {
 
 }
 
+nav .active {
+  color: var(--pink);
+}
+
+nav .sleep {
+  color: var(--white);
+}
+
+.container_nav li:hover .active {
+  color: var(--white);
+
+}
+
 /* Navigation Animation for About Me */
 
 .container_nav #am:hover .header_card {
   background-color: var(--pink);
+  color: var(--white);
   background-position: bottom;
 }
 
@@ -250,7 +271,11 @@ nav a {
 }
 
 main {
-  margin-top: 68px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .subtitle {
@@ -434,41 +459,28 @@ main {
 .cards_work {
   position: relative;
   width: 100%;
-  padding-bottom: 100%;
+  height: fit-content;
   border: 4px solid var(--blue);
   transition: border 0.5s ease;
-  background-size: 110%;
-
 }
 
-/* #pcb{
-  background-image: url("../images/PCB.png");
-}
-#vacc{
-  background-image: url("../images/vaccine_sim.JPG");
-}
-#bus{
-  background-image: url("../images/Bus_app.JPG");
-}
-#anddev{
-  background-image: url("../images/And_Dev.png");
-}
-#indes{
-  background-image: url("../images/solidworks.PNG");
-}
-#project2{
-  background-image: url("../images/project-app.JPG");
-} */
 .transparent_mask_work {
   background-color: #ffffff42;
   position: absolute;
   top: 0px;
   left: 0px;
-
   width: 100%;
   height: 100%;
-
   transition: background-color 0.5s ease;
+}
+
+.cards_work .img {
+  background-color: #e0f;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px;
 }
 
 .card_text_work {
@@ -502,10 +514,9 @@ main {
 .workbannerback .cards_work {
   position: relative;
   width: 100%;
-  padding-bottom: 50%;
+  padding: 0%;
   border: 4px solid var(--blue);
   transition: border 0.5s ease;
-  background-size: 101%;
 }
 
 .workbanner:hover .cards_work>img {
