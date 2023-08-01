@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Navigation = () => {
+const Navigation = ({ handlePageChange }) => {
     return (
         <nav class='navigation'>
             <div class="dropmenu">
@@ -13,7 +13,7 @@ const Navigation = () => {
                         <div class="header_card_spacer" ></div>
                     </div>
                     <div class="header_card" >
-                        <a href="#About-Me">
+                        <a href="#About-Me" onClick={() => handlePageChange('aboutme')}>
                             <h3>About Me</h3>
                         </a>
                     </div>
@@ -27,7 +27,7 @@ const Navigation = () => {
                         <div class="header_card_spacer" ></div>
                     </div>
                     <div class="header_card" >
-                        <a href="#Portfolio">
+                        <a href="#Portfolio" onClick={() => handlePageChange('portfolio')}>
                             <h3>Portfolio</h3>
                         </a>
                     </div>
@@ -40,7 +40,7 @@ const Navigation = () => {
                         <div class="header_card_spacer"></div>
                     </div>
                     <div class="header_card" >
-                        <a href="#Contact">
+                        <a href="#Contact" onClick={() => handlePageChange('contact')}>
                             <h3>Contact</h3>
                         </a>
                     </div>
@@ -54,7 +54,7 @@ const Navigation = () => {
                         <div class="header_card_spacer" ></div>
                     </div>
                     <div class="header_card">
-                        <a href="#Resume">
+                        <a href="#Resume" onClick={() => handlePageChange('resume')}>
                             <h3>Resume</h3>
                         </a>
                     </div>
