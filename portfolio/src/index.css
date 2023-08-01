@@ -623,11 +623,13 @@ footer {
 footer div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: var(--theme);
   color: var(--white);
 }
 
 footer div>h2 {
+  margin: 1% 0%;
   margin-left: 5%;
   width: 30%;
   text-decoration: underline;
@@ -641,8 +643,7 @@ footer>h2::first-letter {
 footer div>ul {
   display: flex;
   justify-content: space-between;
-  width: 70%;
-  height: 43px;
+  width: 30%;
   background-color: var(--theme);
   align-items: center;
   margin-right: 5%;
@@ -653,31 +654,17 @@ footer div li {
   align-items: center;
   height: inherit;
   width: fit-content;
-  background-color: var(--theme);
-  border-radius: 15px;
   padding: 0% 4%;
-
-  background-color: var(--theme);
-  transition: all 0.5s ease;
-
-  background-image: linear-gradient(to top, var(--blue) 50%, var(--theme) 50%);
-  background-position: top;
-  background-size: 100% 200%;
-  transition: background-position 0.5s ease-in-out;
-
 }
 
 footer div li a {
   height: fit-content;
   width: 100%;
 }
-
-footer div li:hover {
-  background-color: var(--blue);
-  border-radius: 15px;
-  background-position: bottom;
+footer div li a img{
+  height: 35px;
+  
 }
-
 @media screen and (max-width: 1001px) {
 
   header {
