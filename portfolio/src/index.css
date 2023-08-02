@@ -2,6 +2,8 @@
   --theme: #060606;
   --blue: #3cf;
   --pink: #e0f;
+  --red: #cf3030;
+  --green: #6dcf30;
   --gray: #666;
   --white: #fff;
   --light_gray: #b6b6b6;
@@ -553,6 +555,64 @@ main {
   border: 4px solid var(--pink);
 }
 
+.Contact {
+  display: flex;
+}
+
+.form {
+  margin-left: 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div h3 {
+  color: var(--pink);
+}
+
+form div input {
+  height: 35px;
+  width: 150%;
+  margin: 5% 0%;
+  padding: 2px;
+  color: var(--pink);
+  border-radius: 5px;
+  border-color: var(--pink);
+  border-width: 2px;
+}
+
+form div:focus-within h3 {
+  color: var(--blue);
+}
+
+form button {
+  background-color: var(--pink);
+  border-radius: 15px;
+  border-width: 0cap;
+  padding: 0% 4%;
+  margin-bottom: 2%;
+  height: 43px;
+
+  background-color: var(--pink);
+  transition: all 0.5s ease;
+
+  background-image: linear-gradient(to top, var(--pink ) 50%, var(--blue) 50%);
+  background-position: bottom;
+  background-size: 100% 200%;
+  transition: background-position 0.5s ease-in-out;
+}
+
+form button:hover {
+  background-position: top;
+}
+.error-text{
+  color: var(--red);
+}
+.done-text{
+  color: var(--green);
+}
 /* Employment History Section */
 .Emp_History {
   display: flex;
@@ -636,7 +696,7 @@ footer div>h2 {
   text-decoration-color: var(--blue);
 }
 
-footer>h2::first-letter {
+footer div>h2::first-letter {
   color: var(--blue);
 }
 
@@ -661,10 +721,12 @@ footer div li a {
   height: fit-content;
   width: 100%;
 }
-footer div li a img{
+
+footer div li a img {
   height: 35px;
-  
+
 }
+
 @media screen and (max-width: 1001px) {
 
   header {

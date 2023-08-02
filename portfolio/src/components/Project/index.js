@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import About_Me from './aboutme'
 import Portfolio from "./portfolio";
+import Contact from "./contact";
 const Project = ({ currentPage }) => {
 
     const renderContent = () => {
@@ -11,7 +12,7 @@ const Project = ({ currentPage }) => {
             case 'portfolio':
                 return <Portfolio />;
             case 'contact':
-                return <h1>Welcome to the contact page</h1>;
+                return <Contact />;
             case 'resume':
                 return <h1>Welcome to the resume page</h1>;
             default:
