@@ -273,7 +273,7 @@ nav .sleep {
 }
 
 main {
-  height: 75%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -628,8 +628,10 @@ form button:hover {
 .done-text {
   color: var(--green);
 }
+
 .Contact {
   display: flex;
+  height: 100%;
 }
 
 .Contact>div h2 {
@@ -638,11 +640,42 @@ form button:hover {
 
 .contact_list {
   width: 50%;
+  height: 60vh;
   margin-left: 5%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
-.contact_list li{
+
+.scrollbar-morpheus-den::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--dark-purple-color);
+  border-radius: 10px;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--dark-purple-color);
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(bottom, var(--pink) 0%, var(--pink) 100%);
+}
+
+.scrollbar-morpheus-den {
+  scrollbar-color: var(--pink) #F5F5F5;
+}
+
+.contact_list li {
   margin-bottom: 10px;
+  margin-right: 10px;
 }
+
+.contact_list a {
+  text-decoration: underline;
+}
+
 .contact_list div {
 
   border-width: 0 0 4px 4px;
@@ -668,6 +701,7 @@ form button:hover {
 .contact_list div:hover h3 {
   color: var(--pink);
 }
+
 /* Employment History Section */
 .Emp_History {
   display: flex;

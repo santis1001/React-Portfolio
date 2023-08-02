@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import AboutMe from './aboutme'
 import Portfolio from "./portfolio";
 import Contact from "./contact";
+import Resume from "./resume";
+
 const Project = ({ currentPage }) => {
 
     const renderContent = () => {
@@ -14,7 +16,7 @@ const Project = ({ currentPage }) => {
             case 'contact':
                 return <Contact />;
             case 'resume':
-                return <h1>Welcome to the resume page</h1>;
+                return <Resume />;
             default:
                 return <h1>Welcome to the default page</h1>;
         }
