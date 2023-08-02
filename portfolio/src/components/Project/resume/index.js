@@ -18,56 +18,56 @@ const Resume = () => {
                     <ul>
                         <li>
                             <div class="cards_skill">
-                                <img src={cs} alt="C#"/>
-                                    <div class="transparent_mask_skill"></div>
-                                    <div class="card_text_skill">
-                                        <h3>C#</h3>
-                                    </div>
+                                <img src={cs} alt="C#" />
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>C#</h3>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="cards_skill">
-                                <img src={cpp} alt="C++"/>
-                                    <div class="transparent_mask_skill"></div>
-                                    <div class="card_text_skill">
-                                        <h3>C++</h3>
-                                    </div>
+                                <img src={cpp} alt="C++" />
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>C++</h3>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="cards_skill">
-                                <img src={unity} alt="Unity"/>
-                                    <div class="transparent_mask_skill"></div>
-                                    <div class="card_text_skill">
-                                        <h3>Unity</h3>
-                                    </div>
+                                <img src={unity} alt="Unity" />
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>Unity</h3>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="cards_skill">
-                                <img src={py} alt="Python"/>
-                                    <div class="transparent_mask_skill"></div>
-                                    <div class="card_text_skill">
-                                        <h3>Python</h3>
-                                    </div>
+                                <img src={py} alt="Python" />
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>Python</h3>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="cards_skill">
-                                <img src={jv} alt="Java"/>
-                                    <div class="transparent_mask_skill"></div>
-                                    <div class="card_text_skill">
-                                        <h3>Java</h3>
-                                    </div>
+                                <img src={jv} alt="Java" />
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>Java</h3>
+                                </div>
                             </div>
                         </li>
                         <li>
                             <div class="cards_skill">
-                                <img src={as} alt="androidstudio"/>
-                                    <div class="transparent_mask_skill"></div>
-                                    <div class="card_text_skill">
-                                        <h3>Android Studio</h3>
-                                    </div>
+                                <img src={as} alt="androidstudio" />
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>Android Studio</h3>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -108,14 +108,15 @@ const Resume = () => {
                             </ul>
                         </div>
                     </li>
-                    <br />
+                    <br /> 
                     <li>
                         <div>
                             <h3>Design and Development of Digital Educational Resources</h3>
                             <p>2022 - 2023</p>
-                            <div class="emp_card_list">
-                                <p >I specialize in the design and development of digital educational resources, constantly seeking to enhance my skills and knowledge in the field. Utilizing technologies such as Unity, Our team aim to create innovative and immersive virtual reality experiences for educational purposes.</p>
-                            </div>
+                            <ul class="emp_card_list">
+                                <li>I specialize in the design and development of digital educational resources, constantly seeking to enhance my skills and knowledge in the field.</li>
+                                <li>Utilizing technologies such as Unity, our team aims to create innovative and immersive virtual reality experiences for educational purposes.</li>                           
+                            </ul>
                         </div>
                     </li>
                 </ul>
