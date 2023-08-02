@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c03195c3.css",
+    "main.js": "/static/js/main.fe69ca44.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/And_Dev.png": "/static/media/And_Dev.5c50e693afce3716d82a.png",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.1ccca91b6f1b57e0c22d.jpg",
+    "static/media/vaccine_sim.JPG": "/static/media/vaccine_sim.5f4f2153f5effce90ce7.JPG",
+    "static/media/solidworks.PNG": "/static/media/solidworks.bbcbe9fdc5cb9c6a17ff.PNG",
+    "static/media/Bus_app.JPG": "/static/media/Bus_app.d510f52ad41a94b51656.JPG",
+    "static/media/Mail.png": "/static/media/Mail.47e4956704e76234da9b.png",
+    "static/media/project-app.JPG": "/static/media/project-app.9c6a5d164545d959edac.JPG",
+    "index.html": "/index.html",
+    "main.c03195c3.css.map": "/static/css/main.c03195c3.css.map",
+    "main.fe69ca44.js.map": "/static/js/main.fe69ca44.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c03195c3.css",
+    "static/js/main.fe69ca44.js"
+  ]
+}
