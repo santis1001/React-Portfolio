@@ -7,7 +7,7 @@ const Contact = () => {
     const ownerName = process.env.REACT_APP_GITHUB_OWNER_NAME;
     const isViewingFromYourAccount = ownerName === 'santis1001';
     console.log(ownerName);
-    
+
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [textcontent, setText] = useState('');
@@ -81,7 +81,7 @@ const Contact = () => {
                     <div class='form'>
                         <form>
                             <div>
-                                <h3>Name</h3>
+                                <h3>Name - {ownerName}</h3>
                                 <input
                                     value={name}
                                     name="name"
