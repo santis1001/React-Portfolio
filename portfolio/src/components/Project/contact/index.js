@@ -6,7 +6,8 @@ import MyPage from "./itsme";
 const Contact = () => {
     const ownerName = process.env.REACT_APP_GITHUB_OWNER_NAME;
     const isViewingFromYourAccount = ownerName === 'santis1001';
-
+    console.log(ownerName);
+    
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [textcontent, setText] = useState('');
