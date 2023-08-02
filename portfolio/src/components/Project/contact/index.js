@@ -13,7 +13,7 @@ const Contact = () => {
     
     const ownerName = name;
     const isViewingFromYourAccount = ownerName === 'santis1001';
-    console.log(ownerName);
+    //console.log(ownerName);
 
     const handleInputChange = (e) => {
         const { target } = e;
