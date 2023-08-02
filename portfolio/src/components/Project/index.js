@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import About_Me from './aboutme'
+import AboutMe from './aboutme'
 import Portfolio from "./portfolio";
 import Contact from "./contact";
 const Project = ({ currentPage }) => {
@@ -8,7 +8,7 @@ const Project = ({ currentPage }) => {
     const renderContent = () => {
         switch (currentPage) {
             case 'aboutme':
-                return <About_Me />;
+                return <AboutMe />;
             case 'portfolio':
                 return <Portfolio />;
             case 'contact':

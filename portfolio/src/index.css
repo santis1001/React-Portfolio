@@ -135,7 +135,7 @@ nav {
   height: 68px;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 /* dropmenu */
@@ -405,7 +405,7 @@ main {
   left: 0px;
   bottom: 15%;
   padding-left: 2%;
-  text-size-adjust: calc();
+  text-size-adjust: CALC();
   background-color: var(--blue);
   transition: background-color 0.5s ease;
 

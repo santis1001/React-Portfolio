@@ -5,7 +5,7 @@ import MyPage from "./itsme";
 
 const Contact = () => {
     const ownerName = process.env.REACT_APP_GITHUB_OWNER_NAME;
-    const isViewingFromYourAccount = ownerName == 'santis1001';
+    const isViewingFromYourAccount = ownerName === 'santis1001';
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -29,6 +29,7 @@ const Contact = () => {
             case 'textcontent':
                 setText(inputValue);
                 break;
+                default:break;
         }
     };
 
