@@ -13,7 +13,7 @@ const Navigation = ({currentPage, handlePageChange }) => {
                         <div class="header_card_spacer" ></div>
                     </div>
                     <div class="header_card" >
-                        <a href="#About-Me" onClick={() => handlePageChange('aboutme')} className={currentPage=='aboutme'?'active':'sleep'} >
+                        <a href="#About-Me" onClick={() => handlePageChange('aboutme')} className={currentPage==='aboutme'?'active':'sleep'} >
                             <h3>About Me</h3>
                         </a>
                     </div>
@@ -27,7 +27,7 @@ const Navigation = ({currentPage, handlePageChange }) => {
                         <div class="header_card_spacer" ></div>
                     </div>
                     <div class="header_card" >
-                        <a href="#Portfolio" onClick={() => handlePageChange('portfolio')} className={currentPage=='portfolio'?'active':'sleep'} >
+                        <a href="#Portfolio" onClick={() => handlePageChange('portfolio')} className={currentPage==='portfolio'?'active':'sleep'} >
                             <h3>Portfolio</h3>
                         </a>
                     </div>
@@ -40,7 +40,7 @@ const Navigation = ({currentPage, handlePageChange }) => {
                         <div class="header_card_spacer"></div>
                     </div>
                     <div class="header_card" >
-                        <a href="#Contact" onClick={() => handlePageChange('contact')} className={currentPage=='contact'?'active':'sleep'} >
+                        <a href="#Contact" onClick={() => handlePageChange('contact')} className={currentPage==='contact'?'active':'sleep'} >
                             <h3>Contact</h3>
                         </a>
                     </div>
@@ -54,7 +54,7 @@ const Navigation = ({currentPage, handlePageChange }) => {
                         <div class="header_card_spacer" ></div>
                     </div>
                     <div class="header_card">
-                        <a href="#Resume" onClick={() => handlePageChange('resume')} className={currentPage=='resume'?'active':'sleep'} >
+                        <a href="#Resume" onClick={() => handlePageChange('resume')} className={currentPage==='resume'?'active':'sleep'} >
                             <h3>Resume</h3>
                         </a>
                     </div>

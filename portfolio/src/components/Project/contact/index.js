@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { validateEmail } from "./utils/helpers";
+import { sendData, getData } from "./utils/apiData";
 
 const Contact = () => {
     const ownerName = process.env.REACT_APP_GITHUB_OWNER_NAME;
@@ -51,12 +52,20 @@ const Contact = () => {
             setErrorMessage('Please fill the message input');
             return;
         }
+        const new_entry = {
+            name,
+            email,
+            textcontent
+        }
+        sendData(new_entry);
+
         setName('');
         setEmail('');
         setText('');
         setErrorMessage('');
         setDoneMessage('Form submitted successfully!');
     }
+
     return (
         <div>
             {isViewingFromYourAccount ? (
@@ -92,7 +101,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h3>Message</h3>
-                                <input
+                                <textarea
                                     value={textcontent}
                                     class="textcontent"
                                     name="textcontent"
