@@ -1,4 +1,4 @@
-const url = 'http://secret-ocean-49575-d51c4c8d7e6d.herokuapp.com/api/contact';
+const url = 'https://secret-ocean-49575-d51c4c8d7e6d.herokuapp.com/api/contact';
 export const sendData = (data) =>
     fetch(url, {
         method: 'POST',
