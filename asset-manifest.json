@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.a49eacaf.css",
-    "main.js": "/React-Portfolio/static/js/main.da062bf5.js",
-    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/And_Dev.png": "/React-Portfolio/static/media/And_Dev.5c50e693afce3716d82a.png",
-    "static/media/profile_pic.jpg": "/React-Portfolio/static/media/profile_pic.1ccca91b6f1b57e0c22d.jpg",
-    "static/media/vaccine_sim.JPG": "/React-Portfolio/static/media/vaccine_sim.5f4f2153f5effce90ce7.JPG",
-    "static/media/solidworks.PNG": "/React-Portfolio/static/media/solidworks.bbcbe9fdc5cb9c6a17ff.PNG",
-    "static/media/Bus_app.JPG": "/React-Portfolio/static/media/Bus_app.d510f52ad41a94b51656.JPG",
-    "static/media/Mail.png": "/React-Portfolio/static/media/Mail.47e4956704e76234da9b.png",
-    "static/media/project-app.JPG": "/React-Portfolio/static/media/project-app.9c6a5d164545d959edac.JPG",
-    "index.html": "/React-Portfolio/index.html",
-    "main.a49eacaf.css.map": "/React-Portfolio/static/css/main.a49eacaf.css.map",
-    "main.da062bf5.js.map": "/React-Portfolio/static/js/main.da062bf5.js.map",
-    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/indes/React-Portfolio/portfolio/build/static/css/main.6ae5693c.css",
+    "main.js": "/indes/React-Portfolio/portfolio/build/static/js/main.c70eb6f6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/indes/React-Portfolio/portfolio/build/static/js/787.1ed0c42c.chunk.js",
+    "static/media/And_Dev.png": "/indes/React-Portfolio/portfolio/build/static/media/And_Dev.5c50e693afce3716d82a.png",
+    "static/media/profile_pic.jpg": "/indes/React-Portfolio/portfolio/build/static/media/profile_pic.1ccca91b6f1b57e0c22d.jpg",
+    "static/media/vaccine_sim.JPG": "/indes/React-Portfolio/portfolio/build/static/media/vaccine_sim.5f4f2153f5effce90ce7.JPG",
+    "static/media/solidworks.PNG": "/indes/React-Portfolio/portfolio/build/static/media/solidworks.bbcbe9fdc5cb9c6a17ff.PNG",
+    "static/media/Bus_app.JPG": "/indes/React-Portfolio/portfolio/build/static/media/Bus_app.d510f52ad41a94b51656.JPG",
+    "static/media/Mail.png": "/indes/React-Portfolio/portfolio/build/static/media/Mail.47e4956704e76234da9b.png",
+    "static/media/project-app.JPG": "/indes/React-Portfolio/portfolio/build/static/media/project-app.9c6a5d164545d959edac.JPG",
+    "index.html": "/indes/React-Portfolio/portfolio/build/index.html",
+    "main.6ae5693c.css.map": "/indes/React-Portfolio/portfolio/build/static/css/main.6ae5693c.css.map",
+    "main.c70eb6f6.js.map": "/indes/React-Portfolio/portfolio/build/static/js/main.c70eb6f6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/indes/React-Portfolio/portfolio/build/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a49eacaf.css",
-    "static/js/main.da062bf5.js"
+    "static/css/main.6ae5693c.css",
+    "static/js/main.c70eb6f6.js"
   ]
 }
