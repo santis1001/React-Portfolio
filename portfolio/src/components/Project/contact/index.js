@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { validateEmail } from "./utils/helpers";
-import { sendData, getData } from "./utils/apiData";
+import { sendData } from "./utils/apiData";
+import MyPage from "./itsme";
 
 const Contact = () => {
     const ownerName = process.env.REACT_APP_GITHUB_OWNER_NAME;
@@ -69,10 +70,8 @@ const Contact = () => {
     return (
         <div>
             {isViewingFromYourAccount ? (
-                // Render your specific component or content for your account
-                <p>Welcome, {ownerName}!</p>
+                < MyPage />
             ) : (
-                // Render default content for other viewers
                 <section class="Contact">
                     <div class="subtitle">
                         <h2>Contact</h2>
@@ -107,7 +106,7 @@ const Contact = () => {
                                     name="textcontent"
                                     onChange={handleInputChange}
                                     type="text"
-                                    placeholder="Text Content"
+                                    placeholder="Content"
                                 />
                             </div>
                             <button type="button" onClick={handleFormSubmit}>Submit</button>

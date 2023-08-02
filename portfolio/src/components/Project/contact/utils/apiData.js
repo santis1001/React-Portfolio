@@ -1,24 +1,25 @@
-export function sendData(json) {
-    console.log(json)
-}
-export function getData() {
-    const json = [
-        {
-            "name": "John Doe",
-            "email": "john.doe@example.com",
-            "textcontent": "Hello, this is a test message."
+const url = 'http://secret-ocean-49575-d51c4c8d7e6d.herokuapp.com/api/contact';
+export const sendData = (data) =>
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
         },
-        {
-            "name": "Jane Smith",
-            "email": "jane.smith@example.com",
-            "textcontent": "Testing the JSON data."
-        },
-        {
-            "name": "Bob Johnson",
-            "email": "bob.johnson@example.com",
-            "textcontent": "This is another test entry."
-        }
-    ];
+        body: JSON.stringify(data),
+    }).then((response) => response.json())
+        .then((data) => {
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
 
-    return json;
-}
+export const getData = () =>
+    fetch(url, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+    }).then((response) => response.json())
+        .catch((error) => {
+            console.error('Error:', error);
+        });

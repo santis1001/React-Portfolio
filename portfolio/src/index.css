@@ -628,7 +628,46 @@ form button:hover {
 .done-text {
   color: var(--green);
 }
+.Contact {
+  display: flex;
+}
 
+.Contact>div h2 {
+  color: var(--pink);
+}
+
+.contact_list {
+  width: 50%;
+  margin-left: 5%;
+}
+.contact_list li{
+  margin-bottom: 10px;
+}
+.contact_list div {
+
+  border-width: 0 0 4px 4px;
+  border-style: solid;
+  border-color: var(--blue);
+  transition: border 0.5s ease;
+
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+.contact_list div h3 {
+  color: var(--blue);
+  transition: color 0.5s ease;
+
+}
+
+.contact_list div:hover {
+  border-left: 4px solid var(--pink);
+  border-bottom: 4px solid var(--pink);
+}
+
+.contact_list div:hover h3 {
+  color: var(--pink);
+}
 /* Employment History Section */
 .Emp_History {
   display: flex;
