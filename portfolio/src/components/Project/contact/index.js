@@ -82,7 +82,7 @@ const Contact = () => {
                     <div class='form'>
                         <form>
                             <div>
-                                <h3>Name - {ownerName}</h3>
+                                <h3>Name</h3>
                                 <input
                                     value={name}
                                     name="name"
