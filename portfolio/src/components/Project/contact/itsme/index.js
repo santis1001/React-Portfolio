@@ -26,12 +26,17 @@ const MyPage = () => {
                     <div class="subtitle">
                         <h2 id="Contact">Contact</h2>
                     </div>
-                    {(data)?<ResultList data={data} />:''}
-                    
+                    {(data) ? <ResultList data={data} /> : ''}
+
 
                 </section>
             ) : (
-                <p>Loading data...</p>
+                <section class="Contact">
+                    <div class="subtitle">
+                        <h2 id="Contact">Loading data...</h2>
+                    </div>
+                    </section>
+
             )}
         </div>
     );
