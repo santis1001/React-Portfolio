@@ -23,81 +23,82 @@ const Portfolio = () => {
     const idimg = {
         backgroundImage: `url(${id})`
     };
-    
+
     return (
-        <section class="Work">
+        <div>
+            <section class="Work">
+                <div class="worksubtitle subtitle">
+                    <h2 id="Work">Work</h2>
+                </div>
+                <div class="container_work scrollbar-morpheus-den">
 
-            <div class="subtitle">
-                <h2 id="Work">Work</h2>
-            </div>
-            <div class="container_work">
-
-                <div class="workbanner">
-                    <div class="workbannerback">
-                        <a href="https://github.com/santis1001/TrackYourGoals">
-                            <div class="cards_work" id="project2">
-                                <div class="transparent_mask_work"></div>
-                                <div class="card_text_work">
-                                    <h3>Track Finances Web App</h3>
+                    <div class="workbanner">
+                        <div class="workbannerback">
+                            <a href="https://github.com/santis1001/TrackYourGoals">
+                                <div class="cards_work" id="project2">
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>Track Finances Web App</h3>
+                                    </div>
+                                    <div class='img' style={p2img} ></div>
                                 </div>
-                                <div class='img'style={p2img} ></div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
+
+                    <ul class="grid">
+                        <li>
+                            <a href="./assets/pdf/Vaccine_sim.pdf">
+                                <div class="cards_work" id="vacc">
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>Vaccine Simulation - Java</h3>
+                                    </div>
+                                    <div class='img' style={vaccimg} ></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./assets/pdf/3.5 - Parte del diseño_ Análisis del diseño del sistema.pdf">
+                                <div class="cards_work" id="bus">
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>Bus Routing - Java</h3>
+                                    </div>
+                                    <div class='img' style={busimg} ></div>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./assets/pdf/AndroidApp.pdf">
+                                <div class="cards_work" id="anddev">
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>Messaging App - Android Dev</h3>
+                                    </div>
+                                    <div class='img' style={msgimg} ></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./assets/pdf/Industrial_Design.PDF">
+                                <div class="cards_work" id="indes">
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>Industrial Design</h3>
+                                    </div>
+                                    <div class='img' style={idimg} ></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+
                 </div>
 
-                <ul class="grid">
-                    <li>
-                        <a href="./assets/pdf/Vaccine_sim.pdf">
-                            <div class="cards_work" id="vacc">
-                                <div class="transparent_mask_work"></div>
-                                <div class="card_text_work">
-                                    <h3>Vaccine Simulation - Java</h3>
-                                </div>
-                                <div class='img'style={vaccimg} ></div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./assets/pdf/3.5 - Parte del diseño_ Análisis del diseño del sistema.pdf">
-                            <div class="cards_work" id="bus">
-                                <div class="transparent_mask_work"></div>
-                                <div class="card_text_work">
-                                    <h3>Bus Routing - Java</h3>
-                                </div>
-                                <div class='img'style={busimg} ></div>
-
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./assets/pdf/AndroidApp.pdf">
-                            <div class="cards_work" id="anddev">
-                                <div class="transparent_mask_work"></div>
-                                <div class="card_text_work">
-                                    <h3>Messaging App - Android Dev</h3>
-                                </div>
-                                <div class='img'style={msgimg} ></div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./assets/pdf/Industrial_Design.PDF">
-                            <div class="cards_work" id="indes">
-                                <div class="transparent_mask_work"></div>
-                                <div class="card_text_work">
-                                    <h3>Industrial Design</h3>
-                                </div>
-                                <div class='img'style={idimg} ></div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-
-
-            </div>
-
-        </section>
+            </section>
+        </div>
     );
 }
 

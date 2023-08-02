@@ -280,6 +280,10 @@ main {
   justify-content: center;
 }
 
+main div {
+  max-height: 60vh;
+}
+
 .subtitle {
   width: 32%;
   flex-direction: row-reverse;
@@ -461,7 +465,7 @@ main {
 .cards_work {
   position: relative;
   width: 100%;
-  height: fit-content;
+  height: 100%;
   border: 4px solid var(--blue);
   transition: border 0.5s ease;
 }
@@ -554,6 +558,7 @@ main {
   background-color: var(--light_gray);
   border: 4px solid var(--pink);
 }
+
 
 .Contact {
   display: flex;
@@ -954,6 +959,34 @@ footer div li a img {
     padding-top: 2%;
   }
 
+}
+
+@media screen and (max-height: 1300px) {
+
+  .worksubtitle {
+    width: 80%;
+    margin-left: 10%;
+    flex-direction: row;
+    border: none;
+    border-bottom: 4px solid var(--pink);
+  }
+
+  .worksubtitle h2 {
+    margin-left: 5%;
+    text-align: left;
+  }
+  .Work {
+    display: block;
+    width: 65%;
+    margin-left: 17%;
+  }
+
+  .container_work {
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
+    overflow-y: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
