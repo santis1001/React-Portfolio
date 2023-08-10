@@ -4,8 +4,13 @@ import p2 from '../../../assets/images/project-app.JPG'
 import vac from '../../../assets/images/vaccine_sim.JPG'
 import bus from '../../../assets/images/Bus_app.JPG'
 import ss from '../../../assets/images/solarproject.png'
-import id from '../../../assets/images/solidworks.PNG'
+import tb from '../../../assets/images/tech_blog.png'
+import em from '../../../assets/images/employeemanager.png'
 import git from "../../../assets/images/github-mark-white.png";
+
+//downloads
+import dnldVAC from "../../../assets/downloads/VaccineSimulation.jar";
+import dnldBR from "../../../assets/downloads/BusRouter.jar";
 
 const Portfolio = () => {
 
@@ -21,8 +26,11 @@ const Portfolio = () => {
     const ssimg = {
         backgroundImage: `url(${ss})`
     };
-    const idimg = {
-        backgroundImage: `url(${id})`
+    const tbimg = {
+        backgroundImage: `url(${tb})`
+    };
+    const emimg = {
+        backgroundImage: `url(${em})`
     };
 
     return (
@@ -48,12 +56,12 @@ const Portfolio = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="./assets/pdf/Vaccine_sim.pdf">
+                            <a href={dnldVAC}>
                                 <div class="cards_work" id="vacc">
                                     <div class="transparent_mask_work"></div>
                                     <div class="card_text_work">
                                         <h3>Vaccine Simulation - Java</h3>
-                                        <a href="https://github.com/santis1001">
+                                        <a href="https://github.com/santis1001/CovidVacc">
                                             <img src={git} alt='git' />
                                         </a>
                                     </div>
@@ -62,12 +70,12 @@ const Portfolio = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="./assets/pdf/3.5 - Parte del diseño_ Análisis del diseño del sistema.pdf">
+                            <a href={dnldBR}>
                                 <div class="cards_work" id="bus">
                                     <div class="transparent_mask_work"></div>
                                     <div class="card_text_work">
                                         <h3>Bus Routing - Java</h3>
-                                        <a href="https://github.com/santis1001">
+                                        <a href="https://github.com/santis1001/BusRouter">
                                             <img src={git} alt='git' />
                                         </a>
                                     </div>
@@ -91,30 +99,30 @@ const Portfolio = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="./assets/pdf/Industrial_Design.PDF">
-                                <div class="cards_work" id="indes">
+                            <a href="https://peaceful-haleakala-03666-e33d7433d6c8.herokuapp.com/">
+                                <div class="cards_work" id="tech-blog">
                                     <div class="transparent_mask_work"></div>
                                     <div class="card_text_work">
-                                        <h3>Industrial Design</h3>
-                                        <a href="https://github.com/santis1001">
+                                        <h3>Tech Blog</h3>
+                                        <a href="https://github.com/santis1001/Tech-Blog">
                                             <img src={git} alt='git' />
                                         </a>
                                     </div>
-                                    <div class='img' style={idimg} ></div>
+                                    <div class='img' style={tbimg} ></div>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="./assets/pdf/Industrial_Design.PDF">
+                            <a href="https://github.com/santis1001/Employee-Manager/archive/refs/heads/main.zip">
                                 <div class="cards_work" id="indes">
                                     <div class="transparent_mask_work"></div>
                                     <div class="card_text_work">
                                         <h3>Industrial Design</h3>
-                                        <a href="https://github.com/santis1001">
+                                        <a href="https://github.com/santis1001/Employee-Manager">
                                             <img src={git} alt='git' />
                                         </a>
                                     </div>
-                                    <div class='img' style={idimg} ></div>
+                                    <div class='img' style={emimg} ></div>
                                 </div>
                             </a>
                         </li>

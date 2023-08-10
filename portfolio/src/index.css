@@ -524,9 +524,11 @@ main>div {
   flex-direction: row;
   align-items: center;
 }
-.card_text_work img{
+
+.card_text_work img {
   height: 35px;
 }
+
 .workbanner {
   position: relative;
   width: 100%;
@@ -1061,9 +1063,11 @@ footer div li a img {
   .subtitle h2 {
     font-size: 8vw;
   }
-  .card_text_work img{
+
+  .card_text_work img {
     height: 7vw;
   }
+
   footer div>h2 {
     margin: 5px 0%;
     margin-left: 5%;
@@ -1076,7 +1080,7 @@ footer div li a img {
   footer div li a img {
     height: 8vw;
   }
-  
+
 }
 
 
@@ -1093,11 +1097,15 @@ footer div li a img {
 }
 
 @media print {
+  body {
+    background-color: var(--white);
+  }
 
   /* Print-specific styles */
   .hidden-print {
     color: var(--theme);
   }
+
   h1,
   h3,
   li,
