@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.32703f6c.css",
-    "main.js": "/React-Portfolio/static/js/main.4cd1a2ab.js",
+    "main.css": "/React-Portfolio/static/css/main.d772a8d3.css",
+    "main.js": "/React-Portfolio/static/js/main.cc320d05.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/And_Dev.png": "/React-Portfolio/static/media/And_Dev.5c50e693afce3716d82a.png",
+    "static/media/BusRouter.jar": "/React-Portfolio/static/media/BusRouter.3f0f49ae03e01479e1ce.jar",
+    "static/media/solarproject.png": "/React-Portfolio/static/media/solarproject.845902080cdc734f1891.png",
     "static/media/python.png": "/React-Portfolio/static/media/python.fbe1488fd1fe314a3589.png",
     "static/media/profile_pic.jpg": "/React-Portfolio/static/media/profile_pic.1ccca91b6f1b57e0c22d.jpg",
     "static/media/vaccine_sim.JPG": "/React-Portfolio/static/media/vaccine_sim.5f4f2153f5effce90ce7.JPG",
-    "static/media/solidworks.PNG": "/React-Portfolio/static/media/solidworks.bbcbe9fdc5cb9c6a17ff.PNG",
+    "static/media/project-app.JPG": "/React-Portfolio/static/media/project-app.d25f5dc8739929e3a16d.JPG",
+    "static/media/VaccineSimulation.jar": "/React-Portfolio/static/media/VaccineSimulation.b2fbe70773ecff88c224.jar",
     "static/media/androidstudio.png": "/React-Portfolio/static/media/androidstudio.c386009ad2f668bb89dd.png",
+    "static/media/tech_blog.png": "/React-Portfolio/static/media/tech_blog.caed9730a3c4f12369e2.png",
     "static/media/cpp.png": "/React-Portfolio/static/media/cpp.1240ce157b70fb399c6c.png",
     "static/media/Bus_app.JPG": "/React-Portfolio/static/media/Bus_app.d510f52ad41a94b51656.JPG",
     "static/media/Mail.png": "/React-Portfolio/static/media/Mail.47e4956704e76234da9b.png",
+    "static/media/employeemanager.png": "/React-Portfolio/static/media/employeemanager.57244ffbbdb2754075bd.png",
     "static/media/java.png": "/React-Portfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
-    "static/media/project-app.JPG": "/React-Portfolio/static/media/project-app.9c6a5d164545d959edac.JPG",
     "static/media/csharp.png": "/React-Portfolio/static/media/csharp.366661becaabd701d51a.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.32703f6c.css.map": "/React-Portfolio/static/css/main.32703f6c.css.map",
-    "main.4cd1a2ab.js.map": "/React-Portfolio/static/js/main.4cd1a2ab.js.map",
+    "main.d772a8d3.css.map": "/React-Portfolio/static/css/main.d772a8d3.css.map",
+    "main.cc320d05.js.map": "/React-Portfolio/static/js/main.cc320d05.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32703f6c.css",
-    "static/js/main.4cd1a2ab.js"
+    "static/css/main.d772a8d3.css",
+    "static/js/main.cc320d05.js"
   ]
 }
