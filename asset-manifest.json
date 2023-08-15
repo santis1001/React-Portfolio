@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.d772a8d3.css",
-    "main.js": "/React-Portfolio/static/js/main.6749fe57.js",
+    "main.js": "/React-Portfolio/static/js/main.47c3d94f.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/BusRouter.jar": "/React-Portfolio/static/media/BusRouter.3f0f49ae03e01479e1ce.jar",
     "static/media/solarproject.png": "/React-Portfolio/static/media/solarproject.845902080cdc734f1891.png",
     "static/media/python.png": "/React-Portfolio/static/media/python.fbe1488fd1fe314a3589.png",
+    "static/media/Santiago Valenzuela.pdf": "/React-Portfolio/static/media/Santiago Valenzuela.a6bf473ee8b5c41cff99.pdf",
     "static/media/profile_pic.jpg": "/React-Portfolio/static/media/profile_pic.1ccca91b6f1b57e0c22d.jpg",
     "static/media/vaccine_sim.JPG": "/React-Portfolio/static/media/vaccine_sim.5f4f2153f5effce90ce7.JPG",
     "static/media/project-app.JPG": "/React-Portfolio/static/media/project-app.d25f5dc8739929e3a16d.JPG",
@@ -20,11 +21,11 @@
     "static/media/csharp.png": "/React-Portfolio/static/media/csharp.366661becaabd701d51a.png",
     "index.html": "/React-Portfolio/index.html",
     "main.d772a8d3.css.map": "/React-Portfolio/static/css/main.d772a8d3.css.map",
-    "main.6749fe57.js.map": "/React-Portfolio/static/js/main.6749fe57.js.map",
+    "main.47c3d94f.js.map": "/React-Portfolio/static/js/main.47c3d94f.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d772a8d3.css",
-    "static/js/main.6749fe57.js"
+    "static/js/main.47c3d94f.js"
   ]
 }
