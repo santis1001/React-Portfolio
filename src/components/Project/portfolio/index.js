@@ -77,7 +77,13 @@ const Portfolio = () => {
                     <h2 id="Work">Work</h2>
                 </div>
                 <div class="container_work scrollbar-morpheus-den">
-                    <Project Projects={projects} />
+                    <ul class="grid">
+                        {projects.map((item, i) => {
+                            const data = {...item, i}
+                            return <Project Projects={data} />
+                        }
+                        )}
+                    </ul>
                 </div>
 
             </section>
