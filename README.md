@@ -68,7 +68,7 @@ Deploy the app to github pages with custom script
 
 To update the build using git terminal
 
-***add to scripts section in `package.json` ***
+***add to scripts section in *** `package.json`
 ```
   "scripts": {
     "deploy": "npm run build && gh-pages -d build"
